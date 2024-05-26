@@ -1,7 +1,7 @@
 <template>
   <button class="flex items-baseline" @click="switchLocale()">
     <span class="sr-only">language Switch</span>
-    <IconLanguage class="size-6" />
+    <IconLanguage class="size-4 md:size-6" />
   </button>
 </template>
 

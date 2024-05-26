@@ -35,7 +35,9 @@
       "standard-offer": "oferta estándar",
       "special-discount": "descuento especial"
     },
-    "notFoundCups": "CUPS no encontrado"
+    "notFoundCups": "CUPS no encontrado",
+    "notFoundCupsDescription": "Lo sentimos, parece que no hemos podido encontrar tu CUPS. Si es tu primera visita, regístrate completando nuestro formulario para acceder a ofertas exclusivas y descubrir todo lo que hemos preparado para ti.",
+    "enrolled": "Inscríbete en la Revolución del Rooftop"
   },
   "thanks": {
     "title": "¡Gracias por confiar en nosotros!",
