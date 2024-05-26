@@ -1,5 +1,5 @@
 <template>
-  <header class="mb-12 flex w-full items-baseline">
+  <header class="flex w-full items-baseline py-6">
     <RouterLink :to="{name: 'home', params: { locale }}" class="ml-auto">
       <AppLogo />
     </RouterLink>

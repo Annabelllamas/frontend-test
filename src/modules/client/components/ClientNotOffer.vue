@@ -12,6 +12,7 @@
     <p v-else>
       {{ $t('client.clientNotOffer.noOffer') }}
     </p>
+    <UiEnrolled />
   </div>
 </template>
 

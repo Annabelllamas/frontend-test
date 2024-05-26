@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="mb-4 text-3xl font-bold">
+    <h2 class="mb-4 text-balance text-3xl font-bold">
       <template v-if="offerTypes[offer]">
         {{ $t('client.discountOffer.hasDiscountWithPercentage') }}
         <span class="text-primary">{{ $t(`client.discountOffer.${offer}`) }}</span>

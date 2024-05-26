@@ -6,14 +6,6 @@
     <p class="mt-6 text-base leading-7 text-gray-600 dark:text-gray-200">
       {{ $t('client.notFoundCupsDescription') }}
     </p>
-    <div class="mt-10">
-      <RouterLink :to="{name: 'home', params: { locale }}" class="text-sm font-semibold leading-7 text-primary">
-        <span aria-hidden="true">&larr; </span>{{ $t('client.enrolled') }}
-      </RouterLink>
-    </div>
+    <UiEnrolled />
   </main>
 </template>
-
-<script setup lang="ts">
-const { locale } = useI18n()
-</script>

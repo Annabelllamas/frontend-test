@@ -10,12 +10,12 @@
       v-else-if="offer"
     >
       <ClientTitle :name="client.full_name" />
-      <div class="mt-16 grid md:grid-cols-2">
+      <div class="mt-8 grid gap-6 md:mt-16 md:grid-cols-2">
+        <ClientDiscountOffer :offer="offer" class="md:order-last" @submit="submit" />
         <ClientData
           :client="client"
           :supply-point="clientSupplyPoint"
         />
-        <ClientDiscountOffer :offer="offer" @submit="submit" />
       </div>
     </template>
   </main>
