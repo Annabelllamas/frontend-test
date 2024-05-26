@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full flex-col items-center justify-center space-y-4">
+  <div class="flex h-full flex-col items-center justify-center space-y-4 dark:text-white">
     <h1 class="text-3xl font-bold">
       {{ $t('thanks.title') }}
     </h1>
