@@ -11,7 +11,7 @@ export default defineConfig({
     Component({
       dts: './.config/auto-components.d.ts',
       dirs: [
-        'src/**'
+        'src/**', 'dist/**'
       ],
       types: [{
         from: 'vue-router',
