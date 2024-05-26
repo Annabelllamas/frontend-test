@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ignore-path .gitignore"
   },
   "dependencies": {
